@@ -18,6 +18,7 @@ public class TipoEmpresaMapeador implements MappingEntityDto<TipoEmpresa, TipoEm
                 myEntity.getEstadoTipoEmpresa());
     }
 
+
     @Override
     public TipoEmpresa fromDto(TipoEmpresaDtoRespuesta myDto) {
         if(myDto == null) {
@@ -30,3 +31,4 @@ public class TipoEmpresaMapeador implements MappingEntityDto<TipoEmpresa, TipoEm
         return entidad;
     }
 }
+

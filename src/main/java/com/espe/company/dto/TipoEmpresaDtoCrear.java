@@ -8,5 +8,4 @@ public record TipoEmpresaDtoCrear(
         @Size(min = 1, max = 150)
         String nombreTipoEmpresa,
         @NotNull
-        Short estadoTipoEmpresa) {
-}
+        Short estadoTipoEmpresa) {}
